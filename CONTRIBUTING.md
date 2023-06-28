@@ -130,9 +130,19 @@ While the prerequisites above must be satisfied prior to having your pull reques
 -  Aim to keep functions and methods focused on a single task. This promotes code clarity and makes it easier to understand, test, and maintain. If a function becomes too long or complex, consider breaking it down into smaller functions.
 
 ### Formating
-[VSCode Extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format) [.lua-format](https://github.com/HarborviewRP/.github/blob/main/.lua-format)
-- Use consisent quotes. (i.e. use only `'` or only `"` in your projects.
+
+- Make functions and variables local unless they are intended to be used globally.
+- If you need to use a functions or variable globally, prefix the variable name with `G_` keyword to indicate that it is intentional and to prevent conflicts and scope errors.
+
+- Use consisent quotes. (i.e. use only `'` or only `"`) in your projects. For the purpose of our scripts, please use `'`.
+
 - Follow a consistent naming convention (e.g., camelCase, snake_case) throughout your codebase to enhance readability. For the purpose of our scripts, please use camelCase.
+
+#### VSCode
+- Install the [vscode-lua-format Extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format) and download the [.lua-format](https://github.com/HarborviewRP/.github/blob/main/.lua-format) file
+- In VSCode press `CTRL + ,`
+- search for `@ext:Koihik.vscode-lua-format`
+- Set vscode-lua-format.configPath to the `.lua-format` file you've downloaded
 
 ### Documentation Styleguide
 -   Use [Markdown](https://daringfireball.net/projects/markdown) for directory-level documentation.
