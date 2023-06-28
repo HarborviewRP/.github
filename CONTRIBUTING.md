@@ -93,7 +93,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
 -   Reference issues and pull requests liberally after the first line
 
 ### General Code Styleguide
-
 -   Use guard clauses where possible
 
     ```lua
@@ -121,8 +120,6 @@ While the prerequisites above must be satisfied prior to having your pull reques
           var = input
       end
     ```
-- Use consisent quotes. (i.e. use only `'` or only `"` in your projects.
-- Follow a consistent naming convention (e.g., camelCase, snake_case) throughout your codebase to enhance readability. For the purpose of our scripts, please use snake_case.
 
 - Aim to write code that is self-explanatory and easy to understand. Use meaningful variable and function names, avoid ambiguous abbreviations, and include comments when necessary to clarify complex logic or intentions.
 
@@ -131,6 +128,11 @@ While the prerequisites above must be satisfied prior to having your pull reques
 - Identify repetitive code patterns and refactor them into reusable functions or modules. Duplicated code increases maintenance effort, introduces the risk of inconsistencies, and makes code harder to understand.
 
 -  Aim to keep functions and methods focused on a single task. This promotes code clarity and makes it easier to understand, test, and maintain. If a function becomes too long or complex, consider breaking it down into smaller functions.
+
+### Formating
+[VSCode Extension](https://marketplace.visualstudio.com/items?itemName=Koihik.vscode-lua-format) [.lua-format](https://github.com/HarborviewRP/.github/blob/main/.lua-format)
+- Use consisent quotes. (i.e. use only `'` or only `"` in your projects.
+- Follow a consistent naming convention (e.g., camelCase, snake_case) throughout your codebase to enhance readability. For the purpose of our scripts, please use camelCase.
 
 ### Documentation Styleguide
 -   Use [Markdown](https://daringfireball.net/projects/markdown) for directory-level documentation.
